@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #89c6ff;
+}
+
+main {
+    flex: 1;
+}
+
+.logo {
+    text-decoration: none;
+}
+.logo img {
+    border-radius: 50%;
+}
+
+.navbar {
+    background-color: #042447;
+    padding: 10px 40px;
+    position: relative;
+    border-bottom: 4px solid #04182f;
+}
+
+.nav-links {
+    display: flex;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #14ade8;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.arrow {
+    font-size: 10px;
+    color: #14ade8;
+}
+
+.buscar {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.buscar input {
+    border: 2px solid black;
+    background: #043b73;
+    outline: none;
+    border-radius: 20px;
+    width: 80%;
+    padding: 15px;
+    color: #89c6ff;
+    font-size: 1em;
+}
+
+.buscar input::placeholder {
+    color: #04182f;
+    font-weight: 700;
+}
+
+.buscar svg {
+    fill: #fff;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 10%;
+    padding: 40px;
+}
+
+.card {
+    background-color: #043b73;
+    width: 200px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    border: 3px solid #04182f;
+}
+
+.card #item1 {
+    width: 180px;
+    height: auto;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+.card #item2 {
+    width: 120px;
+    height: auto;
+    border-radius: 40px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+.card p {
+    font-weight: bold;
+    color: #14ade8;
+    font-size: 16px;
+}
+
+.dots {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.dots span {
+    width: 15px;
+    height: 15px;
+    background-color: #040d19;
+    border-radius: 50%;
+}
+
+.footer {
+    border-top: 4px solid #04182f;
+    background-color: #042447;
+    color: #14ade8;
+    padding: 22px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+}
